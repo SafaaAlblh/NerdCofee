@@ -3,6 +3,7 @@ body {
     font-family: 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 400;
     color: rgba(0, 0, 0, .87);
+    line-height: 1.5;
 }
 
 header {
@@ -15,6 +16,8 @@ header {
     margin: 0 auto;
     height: 100%;
     align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 .left-nav {
@@ -49,4 +52,35 @@ header {
 .left-nav nav ul li:hover {
     color: #008248;
     font-size: 1.01em;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+}
+
+.find-store {
+    margin-right: 40px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.find-store i {
+    padding-right: 8px;
+    font-size: 24px;
+}
+
+.button {
+    padding: 7px 16px;
+    border: solid;
+    border-radius: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.join-now {
+    background-color: black;
+    color: white;
+    border-color: black;
+    margin-left: 16px;
 }
