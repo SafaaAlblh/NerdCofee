@@ -40,7 +40,7 @@
 }
 
 .left-right-section .text h1,
-h3 {
+.text h3 {
     text-align: center;
     margin: 0;
     font-weight: 400;
@@ -92,6 +92,7 @@ section {
 .top-bottom-section {
     width: 50%;
     display: flex;
+    margin-bottom: 32px;
 }
 
 .section-container {
